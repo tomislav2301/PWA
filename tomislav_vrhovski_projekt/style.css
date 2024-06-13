@@ -1,0 +1,232 @@
+::-webkit-scrollbar {
+  width: 0; 
+  height: 0; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  width:100%;
+}
+
+.title {
+  font-size: 70px;
+  background-color: red;
+  color: white;
+  max-width: 100%;
+  padding: 20px 0 10px 0px;
+  margin: 0;
+  text-align: center;
+}
+
+
+.small-titles {
+  display: flex;
+  justify-content:space-between;
+  margin: 20px 50px 0px 50px;
+  max-width: 100%;
+}
+
+.small-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ded8d7;
+  margin-top: 20px;
+}
+
+.hrr{
+  width: 90%;
+  border-top: 1px solid #ded8d7;
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin: 0;
+  padding-left: 10px;
+  color:red;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 380px;
+  height: 350px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box img {
+  
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.article-content {
+  background-color: white;
+  padding: 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-content p {
+  margin: 0;
+  text-align: left;
+}
+
+.subtext {
+  color: grey;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 12px;
+  width: 1170px;
+  margin-top: 50px;
+  display:flex;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-section {
+  margin: 0 350px;
+}
+
+.breadcrumbs {
+  color: grey;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.page-title {
+  text-align: left;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.red {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.kategorytitle {
+  font-size: 18px;
+  margin: 0;
+  padding: 5px 10px 5px 10px;
+  color:white;
+  background-color: red;
+  width:80px;
+  text-align: center;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+
+.picture-container img {
+  width: 600px;
+  height: 400px;
+}
+
+.text-container {
+  width: 60%;
+  margin-top: 320px;
+  
+}
+
+.content-text {
+  font-size: 22px;
+  margin-top: 0;
+  text-align: left;
+  margin-left: -330px;
+}
+
+.kutija {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+.kutija_tekst {
+  margin: 0;
+}
+
+.multi-line-text {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.multi-line-text::first-letter {
+  font-size: 200%; 
+  float: left; 
+  margin-right: 5px; 
+  margin-bottom: 5px; 
+  line-height: 1;
+}
+
+
+.multi-line-text p {
+  margin: 0;
+  font-size: 19px;
+}
+
+.mnaslov{
+  padding-bottom: 20px;
+}
+
+
+.form-item {
+  margin-bottom: 20px; 
+}
+  
+.fut{
+  margin:0px;
+}
